@@ -1,4 +1,27 @@
+# Terraform & Terragrunt generated files
+.terraform/
+.terraform.lock.hcl
+.terragrunt-cache/
+terraform.tfstate
+terraform.tfstate.backup
+*.tfplan
+*.out
+
+# Logs & temporary files
+*.log
+*.tmp
+*.swp
+*.bak
+*.DS_Store
+
+# Go build & test files
+*.exe
+*.test
+*.mod
+*.sum
+
 # Local .terraform directories
+
 **/.terraform/*
 
 # .tfstate files
